@@ -35,33 +35,4 @@ class ApiConnect{
     }
   }
 
-  //
-  // Future<Map<String, dynamic>?>? connectToDoc() async{
-  //   try{
-  //     const String apiUrl = 'http://devapi.hidoc.co:8080/HidocWebApp/api/getArticlesByUid';
-  //
-  //     final Map<String, String> body = {
-  //       'sId': '500',
-  //       'uuId': '',
-  //       'userId': '423914',
-  //     };
-  //     final response = await http.post(
-  //       Uri.parse(apiUrl),
-  //       body: body,
-  //     );
-  //     var responseData =jsonDecode(response.body);
-  //     if (response.statusCode == 200) {
-  //       return responseData;
-  //     } else {
-  //       return {
-  //         "success": 0,
-  //         "message": "Failed to connect. Please try after sometime",
-  //       };
-  //     }
-  //   }catch(e){
-  //     return null;
-  //     rethrow;
-  //   }
-  // }
-
 }
